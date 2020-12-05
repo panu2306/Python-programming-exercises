@@ -117,7 +117,7 @@ def sort_implementation(arr):
     print('List after sort of elements: ', arr)
 
 def copy_implementation(arr):
-    new_arr = arr.copy() #deep-copy
+    new_arr = arr.copy() #shallow-copy
     print('new list after copying from list1: ', new_arr))
 
 def clear_implementation(arr):
